@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap");
+
+nav,
+.main {
+  font-family: 'Sigmar One','Open Sans', 'sans-serif';
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+    transition: transform 0.8s, opacity 0.8s;
+  }
+  100% {
+    transform: translateY(0rem);
+    opacity: 1;
+    transition: transform 0.8s, opacity 0.8s;
+  }
+}
+
+.slideIn {
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+  animation-duration: 0.4s;
+  animation-fill-mode: both;
+}
+
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* Proporción de aspecto 16:9 (480/853 * 100) */
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.type-grass, .category-vitamins {
+  background-color: #9bcc50;
+}
+
+.type-fire, .category-stat-boosts {
+  background-color: #ff7402;
+}
+
+.type-poison, .category-pp-recovery{
+  background-color: #7e0058;
+}
+
+.type-normal, .category-healing {
+  background-color: #a4acaf;
+}
+
+.type-water, .category-status-cures {
+  background-color: #4592c4;
+}
+
+.type-ice, .category-special-balls {
+  background-color: #51c4e7;
+}
+
+.type-steel, .category-revival{
+  background-color: #9eb7b8;
+}
+
+.type-rock, .category-standard-balls {
+  background-color: #a38c21;
+}
+
+.type-ghost, .category-collectibles {
+  background-color: #4d5b64;
+}
+
+.type-psychic, .category-spelunking {
+  background-color: #f366b9;
+}
+
+.type-ground, .category-evolution {
+  background-color: #ab9842;
+}
+
+.type-dark, .category-flutes {
+  background-color: #707070;
+}
+
+.type-fighting, .category-dex-completion {
+  background-color: #d56723;
+}
+
+.type-flying, .category-mulch {
+  background-color: #3dc7ef;
+}
+
+.type-electric, .category-loot {
+  background-color: #bba909;
+}
+
+.type-fairy , .category-species-specific{
+  background-color: #fdb9e9;
+}
+
+.type-shadow , .category-all-mail{
+  background-color: #7b62a3;
+}
+
+.type-dragon, .category-medicine {
+  background-color: sandybrown;
+}
+
+.type-unknow, .category-picky-healing {
+  background-color: #757575;
+}
+
+.type-bug, .category-baking-only{
+  background-color: green;
+}
+
+.type-primary, .category-effort-drop{
+  background-color: #006d77;
+}
+
+.type-primary:hover {
+  background-color: #83c5be;
+}
+
+.custom-checkbox {
+  border-color: black;
+}
+
+.category-choice {
+  background-color: #e24c0b;
+}
+
+.category-type-enhancement {
+  background-color: #eb4034;
+}
+
+.category-other {
+  background-color: #ffdb13;
+}
+
+.category-effort-training {
+  background-color: #6c757d;
+}
+
+.category-training {
+  background-color: #8667a8;
+}
+
+.category-held-items {
+  background-color: #fb7d08;
+}
+
+.category-type-protection {
+  background-color: #00a88f;
+}
+
+.category-in-a-pinch {
+  background-color: #adaba9;
+}
+
+.category-plot-advancement {
+  background-color: #f87600;
+}
+
+.category-event-items {
+  background-color: #9c92ac;
+}
+
+.category-apricorn-balls {
+  background-color: #4e337f;
+}
+
+.category-apricorn-box {
+  background-color: #5c4829;
+}
+
+.category-data-cards {
+  background-color: #6666cc;
+}
+
+.category-jewels {
+  background-color: #f19066;
+}
+
+.category-miracle-shooter {
+  background-color: #01a2a6;
+}
+
+.category-mega-stones {
+  background-color: #ff715b;
+}
+
+.category-z-crystals {
+  background-color: #c15600;
+}
+
+.category-memories {
+  background-color: #00cc99;
+}
+
+.category-catching-bonus {
+  background-color: #ffcc00;
+}
+
+.category-species-candies {
+  background-color: #6c9176;
+}
+
+.category-curry-ingredients {
+  background-color: #f9d71c;
+}
+
+.category-nature-mints {
+  background-color: #fe8501;
+}
+
+.category-dynamax-crystals {
+  background-color: #5a7eff;
+}
+
+.category-tera-shard {
+  background-color: #ff4640;
+}
+
+.category-sandwich-ingredients {
+  background-color: #ffd5d9;
+}
+
+.category-tm-materials {
+  background-color: #006400;
+}
+
+.category-picnic {
+  background-color: #ffa500;
+}
+
+.category-scarves {
+  background-color: #FFA500; 
+}
+
+.category-plates {
+  background-color: #008000; 
+}
+
+.category-all-machines {
+  background-color: #800080; 
+}
+
+.category-unused {
+  background-color: #FF0000;
+}
+
+.category-gameplay {
+  background-color: #0000FF; 
+}
+
+
+
